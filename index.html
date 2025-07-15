@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Макаров Кирилл - Инженер по тестированию</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="#about"><span data-lang="ru">О себе</span><span data-lang="en" style="display:none;">About</span></a></li>
+                    <li><a href="#experience"><span data-lang="ru">Опыт</span><span data-lang="en" style="display:none;">Experience</span></a></li>
+                    <li><a href="#skills"><span data-lang="ru">Навыки</span><span data-lang="en" style="display:none;">Skills</span></a></li>
+                    <li><a href="#projects"><span data-lang="ru">Кейсы</span><span data-lang="en" style="display:none;">Cases</span></a></li>
+                    <li><a href="#contact" class="contact-btn"><span data-lang="ru">Контакты</span><span data-lang="en" style="display:none;">Contact</span></a></li>
+                </ul>
+                <div class="nav-controls">
+                    <button class="lang-toggle" id="lang-toggle">
+                        <span data-lang="ru">EN</span>
+                        <span data-lang="en" style="display:none;">RU</span>
+                    </button>
+                    <button class="theme-toggle" id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-greeting"><span data-lang="ru">Привет, я</span><span data-lang="en" style="display:none;">Hello, I'm</span></span>
+                    <h1 class="hero-name">Кирилл Макаров</h1>
+                    <h2 class="hero-title"><span data-lang="ru">Инженер по тестированию</span><span data-lang="en" style="display:none;">QA Engineer</span></h2>
+                    <p class="hero-description">
+                        <span data-lang="ru">Обеспечиваю качество программных продуктов через ручное и автоматизированное тестирование.<br>
+                        Специализируюсь на API и Web-тестах на Python.</span>
+                        <span data-lang="en" style="display:none;">Ensuring software quality through manual and automated testing.<br>
+                        Specialized in API and Web testing with Python.</span>
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary"><span data-lang="ru">Связаться со мной</span><span data-lang="en" style="display:none;">Contact Me</span></a>
+                        <a href="#projects" class="btn btn-secondary"><span data-lang="ru">Мои кейсы</span><span data-lang="en" style="display:none;">My Cases</span></a>
+                    </div>
+                    <div class="social-links">
+                        <a href="mailto:makarovk4225@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://github.com/mackirly" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://t.me/mackirly" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="me.png" alt="Фото профиля">
+                        <div class="image-decoration"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">
+                    <span data-lang="ru">О себе</span>
+                    <span data-lang="en" style="display:none;">About Me</span>
+                </h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p data-lang="ru">
+                            Опытный инженер по тестированию с 3+ годами работы в области обеспечения качества ПО.
+                            Специализируюсь на ручном и автоматизированном тестировании API и Web-приложений.
+                        </p>
+                        <p data-lang="en" style="display:none;">
+                            Experienced QA Engineer with 3+ years in software quality assurance.
+                            Specialized in manual and automated testing of API and Web applications.
+                        </p>
+                        <p data-lang="ru">
+                            Умею находить баги и создавать эффективные тестовые сценарии.
+                            Стремлюсь к постоянному развитию в области тестирования и QA.
+                        </p>
+                        <p data-lang="en" style="display:none;">
+                            Skilled in finding bugs and creating effective test scenarios.
+                            Committed to continuous development in testing and QA.
+                        </p>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <h3>1000+</h3>
+                                <p data-lang="ru">Написанных тест-кейсов</p>
+                                <p data-lang="en" style="display:none;">Test Cases Written</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>3+</h3>
+                                <p data-lang="ru">Года опыта</p>
+                                <p data-lang="en" style="display:none;">Years of Experience</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3>100%</h3>
+                                <p data-lang="ru">Покрытие автотестами</p>
+                                <p data-lang="en" style="display:none;">Test Automation Coverage</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="section-title">
+                    <span data-lang="ru">Опыт работы</span>
+                    <span data-lang="en" style="display:none;">Work Experience</span>
+                </h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2022 - 2025</span>
+                            <h3 data-lang="ru">Инженер по тестированию</h3>
+                            <h3 data-lang="en" style="display:none;">QA Engineer</h3>
+                            <h4 data-lang="ru">ООО Протон</h4>
+                            <h4 data-lang="en" style="display:none;">Proton LLC</h4>
+                            <p data-lang="ru">Обеспечивал качество программных продуктов через комплексное тестирование.</p>
+                            <p data-lang="en" style="display:none;">Ensured software quality through comprehensive testing.</p>
+                            <ul class="timeline-list">
+                                <li data-lang="ru">Написание и поддержка тест-кейсов для веб-приложений и API</li>
+                                <li data-lang="en" style="display:none;">Writing and maintaining test cases for web applications and APIs</li>
+                                <li data-lang="ru">Разработка автоматизированных тестов на Python</li>
+                                <li data-lang="en" style="display:none;">Developing automated tests in Python</li>
+                                <li data-lang="ru">Полное покрытие микросервиса автотестами</li>
+                                <li data-lang="en" style="display:none;">Achieving full test coverage for microservice</li>
+                                <li data-lang="ru">Ревью кода автотестов и улучшение тестовой инфраструктуры</li>
+                                <li data-lang="en" style="display:none;">Code review for autotests and test infrastructure improvements</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Selenium</span>
+                                <span class="tag">Pytest</span>
+                                <span class="tag">API Testing</span>
+                                <span class="tag">SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2025</span>
+                            <h3 data-lang="ru">Организация процесса тестирования</h3>
+                            <h3 data-lang="en" style="display:none;">Test Process Organization</h3>
+                            <h4 data-lang="ru">Новый проект</h4>
+                            <h4 data-lang="en" style="display:none;">New Project</h4>
+                            <p data-lang="ru">Настроил TestLink для управления тестовой документацией за две недели работы на новом проекте.</p>
+                            <p data-lang="en" style="display:none;">Configured TestLink for test documentation management within two weeks on the project.</p>
+                            <ul class="timeline-list">
+                                <li data-lang="ru">Настройка системы управления тестированием TestLink</li>
+                                <li data-lang="en" style="display:none;">Setting up TestLink test management system</li>
+                                <li data-lang="ru">Планирование тестовой стратегии</li>
+                                <li data-lang="en" style="display:none;">Test strategy planning</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tag">TestLink</span>
+                                <span class="tag">Test Management</span>
+                                <span class="tag">Process Setup</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">
+                    <span data-lang="ru">Навыки и технологии</span>
+                    <span data-lang="en" style="display:none;">Skills & Technologies</span>
+                </h2>
+                <div class="skills-container">
+                    <div class="skills-category">
+                        <h3><i class="fas fa-vial"></i> <span data-lang="ru">Тестирование</span><span data-lang="en" style="display:none;">Testing</span></h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag" data-lang="ru">Ручное тестирование</span>
+                            <span class="skill-tag" data-lang="en" style="display:none;">Manual Testing</span>
+                            <span class="skill-tag" data-lang="ru">API тестирование</span>
+                            <span class="skill-tag" data-lang="en" style="display:none;">API Testing</span>
+                            <span class="skill-tag" data-lang="ru">Web автоматизация</span>
+                            <span class="skill-tag" data-lang="en" style="display:none;">Web Automation</span>
+                            <span class="skill-tag" data-lang="ru">Написание тест-кейсов</span>
+                            <span class="skill-tag" data-lang="en" style="display:none;">Test Case Writing</span>
+                            <span class="skill-tag" data-lang="ru">Регрессионное тестирование</span>
+                            <span class="skill-tag" data-lang="en" style="display:none;">Regression Testing</span>
+                            <span class="skill-tag" data-lang="ru">Тестирование мобильных приложений</span>
+                            <span class="skill-tag" data-lang="en" style="display:none;">Mobile Testing</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <h3><i class="fas fa-code"></i> <span data-lang="ru">Программирование</span><span data-lang="en" style="display:none;">Programming</span></h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Selenium WebDriver</span>
+                            <span class="skill-tag">Pytest</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">REST API</span>
+                            <span class="skill-tag">JSON</span>
+                            <span class="skill-tag">Git</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <h3><i class="fas fa-tools"></i> <span data-lang="ru">Инструменты</span><span data-lang="en" style="display:none;">Tools</span></h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Postman</span>
+                            <span class="skill-tag">TestLink</span>
+                            <span class="skill-tag">Jira</span>
+                            <span class="skill-tag">Jenkins</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Chrome DevTools</span>
+                            <span class="skill-tag">Allure</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <h3><i class="fas fa-language"></i> <span data-lang="ru">Языки</span><span data-lang="en" style="display:none;">Languages</span></h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag" data-lang="ru">Русский (Родной)</span>
+                            <span class="skill-tag" data-lang="en" style="display:none;">Russian (Native)</span>
+                            <span class="skill-tag" data-lang="ru">Английский (B2-C1)</span>
+                            <span class="skill-tag" data-lang="en" style="display:none;">English (B2-C1)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">
+                    <span data-lang="ru">Кейсы и достижения</span>
+                    <span data-lang="en" style="display:none;">Cases & Achievements</span>
+                </h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <h3 data-lang="ru">Автоматизация тестирования</h3>
+                        <h3 data-lang="en" style="display:none;">Test Automation</h3>
+                        <p data-lang="ru">Автоматизировал 550+ тест-кейсов из 1000+ написанных, включая полное покрытие микросервиса базы знаний</p>
+                        <p data-lang="en" style="display:none;">Automated 550+ test cases out of 1000+ written, including full coverage of knowledge base microservice</p>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h3 data-lang="ru">1000+ тест-кейсов</h3>
+                        <h3 data-lang="en" style="display:none;">1000+ Test Cases</h3>
+                        <p data-lang="ru">Написал и поддерживаю более 1000 тест-кейсов для различных функций и модулей</p>
+                        <p data-lang="en" style="display:none;">Created and maintained over 1000 test cases for various features and modules</p>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3 data-lang="ru">Настройка процессов</h3>
+                        <h3 data-lang="en" style="display:none;">Process Setup</h3>
+                        <p data-lang="ru">Настроил TestLink для управления тестовой документацией и организовал тестовый процесс для нового проекта</p>
+                        <p data-lang="en" style="display:none;">Configured TestLink for test documentation management and organized testing process for new project</p>
+                    </div>
+                    
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 data-lang="ru">Оптимизация тестирования</h3>
+                        <h3 data-lang="en" style="display:none;">Testing Optimization</h3>
+                        <p data-lang="ru">Автоматизировал 550+ тест-кейсов из 1000+ написанных, что существенно ускорило регрессионное тестирование</p>
+                        <p data-lang="en" style="display:none;">Automated 550+ test cases out of 1000+ written, significantly speeding up regression testing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">
+                    <span data-lang="ru">Контакты</span>
+                    <span data-lang="en" style="display:none;">Contacts</span>
+                </h2>
+                <div class="contact-content">
+                    <h3>Готов к новым вызовам!</h3>
+                    <p>Ищу возможности для профессионального роста в области тестирования и QA.</p>
+                    <div class="contact-wrapper">
+                        <button class="btn btn-primary btn-large contact-trigger">
+                            <span data-lang="ru">Написать мне</span>
+                            <span data-lang="en" style="display:none;">Contact Me</span>
+                        </button>
+                        <div class="contact-buttons">
+                            <a href="mailto:makarovk4225@gmail.com" class="contact-icon gmail" aria-label="Gmail">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="https://t.me/mackirly" target="_blank" class="contact-icon telegram" aria-label="Telegram">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <button class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
